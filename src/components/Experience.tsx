@@ -45,7 +45,7 @@ export default function Experience() {
 
         {/* 2-Column Split Terminal Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 w-full items-center">
-          
+
           {/* Left Side: Animated Terminal Window */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -66,32 +66,32 @@ export default function Experience() {
             </div>
 
             {/* Terminal Body Screen Panel */}
-            <motion.div 
-               className="p-6 font-mono text-xs md:text-sm space-y-2 h-[280px] overflow-y-auto"
-               initial="hidden"
-               whileInView="visible"
-               viewport={{ once: true }}
-               variants={{
-                 hidden: { opacity: 0 },
-                 visible: { opacity: 1, transition: { staggerChildren: 0.2, delayChildren: 0.2 } }
-               }}
+            <motion.div
+              className="p-6 font-mono text-xs md:text-sm space-y-2 h-[280px] overflow-y-auto"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={{
+                hidden: { opacity: 0 },
+                visible: { opacity: 1, transition: { staggerChildren: 0.2, delayChildren: 0.2 } }
+              }}
             >
               {terminalLines.map((line, index) => (
-                <motion.div 
-                   key={index}
-                   variants={{
-                     hidden: { opacity: 0, x: -5 },
-                     visible: { opacity: 1, x: 0, transition: { duration: 0.2 } }
-                   }}
-                   className={`${line.color} flex items-start gap-1`}
+                <motion.div
+                  key={index}
+                  variants={{
+                    hidden: { opacity: 0, x: -5 },
+                    visible: { opacity: 1, x: 0, transition: { duration: 0.2 } }
+                  }}
+                  className={`${line.color} flex items-start gap-1`}
                 >
-                   {line.text.startsWith("➜") ? "" : <span className="text-gray-600">➜</span>} {line.text}
+                  {line.text.startsWith("➜") ? "" : <span className="text-gray-600">➜</span>} {line.text}
                 </motion.div>
               ))}
 
               {/* Blinking continuous Cursor */}
               <div className="flex items-center gap-1 text-blue-400">
-                 <span>➜</span> <div className="w-2 h-4 bg-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.6)] animate-pulse" />
+                <span>➜</span> <div className="w-2 h-4 bg-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.6)] animate-pulse" />
               </div>
             </motion.div>
           </motion.div>

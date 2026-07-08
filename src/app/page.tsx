@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -19,22 +19,39 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 2000); // 2 Seconds standard duration
-    return () => clearTimeout(timer);
+    const minLoadTime = 2200; // Cinematic buffer for premium Lottie feel
+    const startTime = Date.now();
+
+    const handleLoad = () => {
+      const elapsed = Date.now() - startTime;
+      const delay = Math.max(0, minLoadTime - elapsed);
+      setTimeout(() => setIsLoading(false), delay);
+    };
+
+    if (document.readyState === "complete") {
+      handleLoad();
+    } else {
+      window.addEventListener("load", handleLoad, { once: true });
+      return () => window.removeEventListener("load", handleLoad);
+    }
   }, []);
 
   return (
     <>
-      <AnimatePresence>
-        {isLoading && <Loader />}
+      <AnimatePresence mode="wait">
+        {isLoading && <Loader key="loader" />}
       </AnimatePresence>
       <main className={`min-h-screen font-sans antialiased text-white selection:bg-blue-500/30 selection:text-white ${isLoading ? "overflow-hidden h-screen" : "overflow-y-auto"}`}>
         <CustomCursor />
         <ThreeBackground />
         <Navbar />
-        <div className="flex flex-col">
+
+        <motion.div
+          className="flex flex-col"
+          initial={{ opacity: 0, scale: 1.02, filter: "blur(20px)" }}
+          animate={!isLoading ? { opacity: 1, scale: 1, filter: "blur(0px)" } : {}}
+          transition={{ duration: 1.2, ease: "easeOut" }}
+        >
           <Hero />
           <About />
           <Education />
@@ -43,7 +60,7 @@ export default function Home() {
           <TechStack />
           <WhyHireMe />
           <Contact />
-        </div>
+        </motion.div>
 
         {/* Footer */}
         <footer className="py-8 border-t border-white/5 text-center text-gray-500 text-xs md:text-sm">

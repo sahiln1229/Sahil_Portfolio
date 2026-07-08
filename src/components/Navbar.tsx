@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence, useScroll } from "framer-motion";
 import { Menu, X, Download, Sun, Moon } from "lucide-react";
-import { useTheme } from "next-themes";
 
 const navItems = [
   { name: "About", href: "#about" },
@@ -18,11 +17,6 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState("");
-
-  const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => setMounted(true), []);
 
   const { scrollYProgress } = useScroll();
 
@@ -51,7 +45,7 @@ export default function Navbar() {
 
     window.addEventListener("scroll", handleScroll);
     handleScroll(); // Trigger once on mount
-    
+
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -145,7 +139,7 @@ export default function Navbar() {
             onClick={(e) => handleClick(e, "#contact")}
             className="px-6 py-2.5 rounded-full bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold hover:scale-105 shadow-[0_0_15px_rgba(59,130,246,0.2)] transition-all duration-300 cursor-pointer flex items-center justify-center"
           >
-            Let's Connect
+            Let&apos;s Connect
           </a>
         </div>
 

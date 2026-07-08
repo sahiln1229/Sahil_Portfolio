@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { Github, Mail, ArrowRight, Download } from "lucide-react";
+import { Github, Mail, Download } from "lucide-react";
 
 export default function Hero() {
   const containerVariants = {
@@ -32,7 +32,7 @@ export default function Hero() {
       >
         <motion.div
           variants={itemVariants}
-          className="inline-flex items-center gap-2 px-3 py-1 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-xs font-medium mb-6 backdrop-blur-sm"
+          className="inline-flex items-center gap-2 px-3 py-1 bg-[var(--secondary)]/10 border border-[var(--secondary)]/20 rounded-full text-[var(--secondary)] text-xs font-medium mb-6 backdrop-blur-sm"
         >
           <span className="relative flex h-2 w-2">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
@@ -52,13 +52,13 @@ export default function Hero() {
           variants={itemVariants}
           animate={{
             filter: [
-              "drop-shadow(0 0 2px rgba(59, 130, 246, 0.1))",
-              "drop-shadow(0 0 6px rgba(59, 130, 246, 0.35))",
-              "drop-shadow(0 0 2px rgba(59, 130, 246, 0.1))",
+              "drop-shadow(0 0 2px lab(81 -6.67 -14.98 / 0.1))",
+              "drop-shadow(0 0 6px lab(81 -6.67 -14.98 / 0.35))",
+              "drop-shadow(0 0 2px lab(81 -6.67 -14.98 / 0.1))",
             ],
           }}
           whileHover={{
-            filter: "drop-shadow(0 0 12px rgba(59, 130, 246, 0.6))",
+            filter: "drop-shadow(0 0 12px lab(81 -6.67 -14.98 / 0.6))",
             scale: 1.01,
           }}
           transition={{
@@ -107,7 +107,7 @@ export default function Hero() {
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="mailto:sahilnarkar121105@gmail.com"
+              href="mailto:sahilnarkar.dev@gmail.com"
               aria-label="Email Me"
               className={cn(
                 buttonVariants({ variant: "outline", size: "icon" }),

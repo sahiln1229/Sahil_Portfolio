@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, Github, Send, MessageSquare } from "lucide-react";
+import { Mail, Github, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -10,14 +10,47 @@ import { Textarea } from "@/components/ui/textarea";
 export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    setTimeout(() => {
-      setIsSubmitting(false);
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          subject,
+          message,
+        }),
+      });
+
+      const result = await response.json();
+
+      if (!result.success) {
+        throw new Error(result.error ?? "Something went wrong.");
+      }
+
       setIsSubmitted(true);
-    }, 1500); // Simulate network delay
+      setName("");
+      setEmail("");
+      setSubject("");
+      setMessage("");
+      alert("Message Sent!");
+    } catch (error) {
+      console.log(error);
+      alert("Something went wrong.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -34,21 +67,21 @@ export default function Contact() {
             Get In Touch
           </h2>
           <p className="text-gray-400 max-w-2xl text-base md:text-lg">
-            Let's discuss layout ideas or potential projects to build together.
+            Let&apos;s discuss layout ideas or potential projects to build together.
           </p>
         </div>
 
         <div className="grid md:grid-cols-5 gap-8">
           {/* Contact Information */}
           <div className="md:col-span-2 space-y-8 flex flex-col justify-center">
-            <h3 className="text-2xl font-bold text-white">Let's Connect</h3>
+            <h3 className="text-2xl font-bold text-white">Let&apos;s Connect</h3>
             <p className="text-gray-400 text-base leading-relaxed">
               If you have any questions, feel free to drop a message or reach out on socials.
             </p>
             
             <div className="space-y-5">
               <a
-                href="mailto:sahilnarkar121105@gmail.com"
+                href="mailto:sahilnarkar.dev@gmail.com"
                 className="flex items-center gap-5 p-5 rounded-2xl border border-white/5 bg-gradient-to-br from-white/3 to-transparent backdrop-blur-md group hover:border-white/10"
               >
                 <div className="p-3 rounded-xl bg-blue-500/10 text-blue-400 group-hover:scale-110 transition-transform">
@@ -57,7 +90,7 @@ export default function Contact() {
                 <div>
                   <p className="text-gray-500 text-xs uppercase tracking-wider font-semibold mb-0.5">Email Me</p>
                   <p className="text-gray-100 text-base font-medium group-hover:text-blue-400 transition-colors">
-                    sahilnarkar121105@gmail.com
+                    sahilnarkar.dev@gmail.com
                   </p>
                 </div>
               </a>
@@ -93,6 +126,8 @@ export default function Contact() {
                   placeholder="John Doe"
                   className="bg-white/5 border-white/5 h-12 text-base text-white placeholder:text-gray-600 focus-visible:ring-blue-500/30 rounded-xl"
                   type="text"
+                  value={name}
+                  onChange={(event) => setName(event.target.value)}
                 />
               </div>
               <div>
@@ -102,6 +137,19 @@ export default function Contact() {
                   placeholder="john@example.com"
                   className="bg-white/5 border-white/5 h-12 text-base text-white placeholder:text-gray-600 focus-visible:ring-blue-500/30 rounded-xl"
                   type="email"
+                  value={email}
+                  onChange={(event) => setEmail(event.target.value)}
+                />
+              </div>
+              <div>
+                <label className="block text-gray-400 text-sm font-semibold mb-2 pl-1">Subject</label>
+                <Input
+                  required
+                  placeholder="Project inquiry"
+                  className="bg-white/5 border-white/5 h-12 text-base text-white placeholder:text-gray-600 focus-visible:ring-blue-500/30 rounded-xl"
+                  type="text"
+                  value={subject}
+                  onChange={(event) => setSubject(event.target.value)}
                 />
               </div>
               <div>
@@ -111,6 +159,8 @@ export default function Contact() {
                   placeholder="Tell me about your project..."
                   rows={4}
                   className="bg-white/5 border-white/5 text-base text-white placeholder:text-gray-600 focus-visible:ring-blue-500/30 rounded-xl p-4"
+                  value={message}
+                  onChange={(event) => setMessage(event.target.value)}
                 />
               </div>
 

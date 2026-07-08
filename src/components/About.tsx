@@ -21,7 +21,7 @@ export default function About() {
         </div>
 
         <div className="flex flex-col md:flex-row gap-12 items-start justify-between">
-          <motion.div 
+          <motion.div
             className="flex flex-col items-start text-left gap-5 max-w-2xl"
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -39,7 +39,7 @@ export default function About() {
             </p>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             className="flex flex-col gap-5 border-l border-white/5 pl-8 md:min-w-[220px]"
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
