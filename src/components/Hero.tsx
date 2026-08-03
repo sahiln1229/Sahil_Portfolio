@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { Github, Mail, Download } from "lucide-react";
+import { Github, Mail, Download, Linkedin } from "lucide-react";
 
 export default function Hero() {
   const containerVariants = {
@@ -105,6 +105,18 @@ export default function Hero() {
               )}
             >
               <Github className="w-5 h-5" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sahil-narkar-4a842b277"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn Profile"
+              className={cn(
+                buttonVariants({ variant: "outline", size: "icon" }),
+                "rounded-full border-white/10 bg-white/5 hover:bg-blue-600/30 hover:text-blue-400 backdrop-blur-sm flex items-center justify-center p-0"
+              )}
+            >
+              <Linkedin className="w-5 h-5" />
             </a>
             <a
               href="mailto:sahilnarkar.dev@gmail.com"
