@@ -38,6 +38,15 @@ app.use(
 
 app.use(express.json());
 
+// Middleware to strip /backend prefix if present (Vercel Services routing fallback)
+app.use((req, res, next) => {
+  if (req.url.startsWith("/backend")) {
+    req.url = req.url.replace(/^\/backend/, "");
+    if (req.url === "") req.url = "/";
+  }
+  next();
+});
+
 // Trust proxy for accurate client IP address under reverse proxies (Render, Railway, Cloudflare, etc.)
 app.set("trust proxy", 1);
 
