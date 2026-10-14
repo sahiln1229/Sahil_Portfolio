@@ -1,0 +1,59 @@
+<svg width="100%" height="46" viewBox="0 0 1000 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hudBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050C1A" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#0A1832" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#040914" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="hudBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#7000FF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0.6"/>
+    </linearGradient>
+    <filter id="hudGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#00F0FF" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Container Frame -->
+  <rect x="2" y="2" width="996" height="42" rx="8" fill="url(#hudBg)" stroke="url(#hudBorder)" stroke-width="1.2" filter="url(#hudGlow)"/>
+
+  <!-- Left Status Indicator -->
+  <g transform="translate(24, 15)">
+    <circle cx="8" cy="8" r="6" fill="#00F0FF" fill-opacity="0.2"/>
+    <circle cx="8" cy="8" r="3.5" fill="#00F0FF">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="24" y="12" fill="#00F0FF" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">SYS_STATUS: ONLINE</text>
+  </g>
+
+  <!-- Divider 1 -->
+  <line x1="200" y1="12" x2="200" y2="34" stroke="#00F0FF" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- Protocol Metric -->
+  <g transform="translate(220, 15)">
+    <text x="0" y="12" fill="#88A0C0" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-size="11" font-weight="500" letter-spacing="1">PROTOCOL: <tspan fill="#FFFFFF" font-weight="700">v4.8-NEURAL</tspan></text>
+  </g>
+
+  <!-- Divider 2 -->
+  <line x1="390" y1="12" x2="390" y2="34" stroke="#00F0FF" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- Role / Identity -->
+  <g transform="translate(410, 15)">
+    <text x="0" y="12" fill="#88A0C0" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-size="11" font-weight="500" letter-spacing="1">SPEC: <tspan fill="#00F0FF" font-weight="700">FULL-STACK // AI ARCHITECTURE</tspan></text>
+  </g>
+
+  <!-- Divider 3 -->
+  <line x1="680" y1="12" x2="680" y2="34" stroke="#00F0FF" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- Geo Coordinates -->
+  <g transform="translate(700, 15)">
+    <text x="0" y="12" fill="#88A0C0" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-size="11" font-weight="500" letter-spacing="1">NODE: <tspan fill="#A78BFA" font-weight="700">MUMBAI [19.01° N, 72.84° E]</tspan></text>
+  </g>
+
+  <!-- Corner Brackets -->
+  <path d="M 6 12 L 6 6 L 12 6" stroke="#00F0FF" stroke-width="1.5" fill="none"/>
+  <path d="M 994 12 L 994 6 L 988 6" stroke="#00F0FF" stroke-width="1.5" fill="none"/>
+  <path d="M 6 34 L 6 40 L 12 40" stroke="#00F0FF" stroke-width="1.5" fill="none"/>
+  <path d="M 994 34 L 994 40 L 988 40" stroke="#00F0FF" stroke-width="1.5" fill="none"/>
+</svg>
