@@ -1,16 +1,21 @@
 <!-- ================================================================= -->
 <!-- SAHIL NARKAR // FUTURISTIC DIGITAL DEVELOPER WORKSTATION         -->
-<!-- ARCHITECTURE: NEURAL-HUD v5.0 // QUANTUM RUNTIME COMPATIBLE       -->
+<!-- ARCHITECTURE: NEURAL-HUD v5.2 // QUANTUM RUNTIME COMPATIBLE       -->
 <!-- ================================================================= -->
 
 <div align="center">
 
-  <!-- SYSTEM HUD TELEMETRY RIBBON -->
+  <!-- DYNAMIC ANIMATED TELEMETRY HUD RIBBON -->
   <a href="https://sahilnarkar.dev">
-    <img src="./assets/status_hud.svg" width="100%" alt="System Status Telemetry Ribbon: Online" />
+    <img src="./assets/animated_hologram_hud.svg" width="100%" alt="System Status Telemetry Ribbon: Active & Synchronized" />
   </a>
 
   <br/><br/>
+
+  <!-- HOLOGRAPHIC SCANNER RETICLE -->
+  <img src="./assets/hologram_scanner_ring.svg" width="100%" alt="Holographic Scanner Reticle" />
+
+  <br/>
 
   <!-- HERO HOLOGRAPHIC 3D DIGITAL TWIN -->
   <a href="https://sahilnarkar.dev">
@@ -28,7 +33,7 @@
     <samp>
       <b><code>[ OPERATOR SPECIFICATION ]</code></b> 
       <font color="#00F0FF"><b>FULL STACK ARCHITECTURE</b></font> &bull; 
-      <font color="#A78BFA"><b>AI & MACHINE LEARNING</b></font> &bull; 
+      <font color="#A78BFA"><b>AI &amp; MACHINE LEARNING</b></font> &bull; 
       <font color="#38BDF8"><b>AUTONOMOUS AGENTS</b></font>
     </samp>
   </p>
@@ -65,6 +70,10 @@
 <!-- ================================================================= -->
 <!-- SECTION: ADVANCED DEVELOPER WORKSTATION // CODE RUNTIME           -->
 <!-- ================================================================= -->
+
+<img src="./assets/header_workstation.svg" width="100%" alt="Dev Workstation // IDE Runtime & Architecture" />
+
+<br/><br/>
 
 <div align="center">
   <table width="100%" bgcolor="#060913" style="border: 1px solid #0E223D; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0, 240, 255, 0.08);">
