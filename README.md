@@ -1,6 +1,6 @@
 <!-- ================================================================= -->
-<!-- SAHIL NARKAR // FUTURISTIC DIGITAL DEVELOPER IDENTITY MATRIX     -->
-<!-- ARCHITECTURE: NEURAL-HUD v4.8 // QUANTUM RUNTIME COMPATIBLE       -->
+<!-- SAHIL NARKAR // FUTURISTIC DIGITAL DEVELOPER WORKSTATION         -->
+<!-- ARCHITECTURE: NEURAL-HUD v5.0 // QUANTUM RUNTIME COMPATIBLE       -->
 <!-- ================================================================= -->
 
 <div align="center">
@@ -13,32 +13,34 @@
   <br/><br/>
 
   <!-- HERO HOLOGRAPHIC 3D DIGITAL TWIN -->
-  <img src="./assets/hero_hologram.jpg" width="100%" alt="Sahil Narkar - Holographic 3D Digital Human Interface" style="border-radius: 14px; box-shadow: 0 10px 30px rgba(0, 240, 255, 0.15);" />
+  <a href="https://sahilnarkar.dev">
+    <img src="./assets/hero_hologram.jpg" width="100%" alt="Sahil Narkar - Holographic 3D Digital Human Interface" style="border-radius: 14px; box-shadow: 0 10px 30px rgba(0, 240, 255, 0.15);" />
+  </a>
 
   <br/><br/>
 
   <!-- DYNAMIC HOLOGRAPHIC TYPING HEADER -->
   <a href="https://sahilnarkar.dev">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=30&duration=2800&pause=1100&color=00F0FF&center=true&vcenter=true&width=800&height=50&lines=SAHIL+NARKAR;FULL+STACK+DEVELOPER+%2F%2F+AI+ENGINEER;BUILDING+INTELLIGENT+SYSTEMS;EXPLORING+AGENTIC+WORKFLOWS" alt="Typing Matrix Header" />
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=32&duration=2800&pause=1100&color=00F0FF&center=true&vcenter=true&width=850&height=55&lines=SAHIL+NARKAR;FULL+STACK+DEVELOPER+%7C+AI+%26+ML+ENTHUSIAST;ENGINEERING+INTELLIGENT+SYSTEMS;EXPLORING+THE+FUTURE+OF+AI" alt="Typing Matrix Header" />
   </a>
 
   <p align="center">
     <samp>
-      <b><code>[ CORE SPECIALIZATION ]</code></b> 
+      <b><code>[ OPERATOR SPECIFICATION ]</code></b> 
       <font color="#00F0FF"><b>FULL STACK ARCHITECTURE</b></font> &bull; 
       <font color="#A78BFA"><b>AI & MACHINE LEARNING</b></font> &bull; 
-      <font color="#38BDF8"><b>INTELLIGENT AGENTS</b></font>
+      <font color="#38BDF8"><b>AUTONOMOUS AGENTS</b></font>
     </samp>
   </p>
 
   <p align="center">
-    <em>"Building intelligent systems. Engineering digital experiences. Exploring the future of AI."</em>
+    <em>"Engineering intelligent systems. Exploring the future of AI."</em>
   </p>
 
   <!-- QUICK ACCESS TELEMETRY LINKS -->
   <p align="center">
     <a href="https://sahilnarkar.dev">
-      <img src="https://img.shields.io/badge/PORTFOLIO_SYSTEM-050B14?style=for-the-badge&logo=googlechrome&logoColor=00F0FF&labelColor=020617" alt="Portfolio" />
+      <img src="https://img.shields.io/badge/LIVE_3D_PORTFOLIO-050B14?style=for-the-badge&logo=googlechrome&logoColor=00F0FF&labelColor=020617" alt="Portfolio" />
     </a>
     &nbsp;
     <a href="https://www.linkedin.com/in/sahil-narkar-4a842b277">
@@ -61,6 +63,220 @@
 <br/>
 
 <!-- ================================================================= -->
+<!-- SECTION: ADVANCED DEVELOPER WORKSTATION // CODE RUNTIME           -->
+<!-- ================================================================= -->
+
+<div align="center">
+  <table width="100%" bgcolor="#060913" style="border: 1px solid #0E223D; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0, 240, 255, 0.08);">
+    <!-- IDE Title Bar -->
+    <tr bgcolor="#090E1A">
+      <td colspan="2" style="padding: 10px 16px; border-bottom: 1px solid #14233D;">
+        <table width="100%">
+          <tr>
+            <td align="left" width="15%">
+              <font color="#FF5F56">&bull;</font>
+              <font color="#FFBD2E">&bull;</font>
+              <font color="#27C93F">&bull;</font>
+            </td>
+            <td align="center" width="70%">
+              <code><font color="#88A0C0">sahil@workstation &mdash; </font><font color="#00F0FF"><b>agentic-core.ts</b></font><font color="#88A0C0"> &mdash; Cursor / Antigravity IDE</font></code>
+            </td>
+            <td align="right" width="15%">
+              <code><font color="#00F0FF">[SYS: READY]</font></code>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- IDE Body: Explorer + Interactive Code Tabs -->
+    <tr>
+      <!-- Sidebar Explorer (28%) -->
+      <td width="28%" valign="top" bgcolor="#070C18" style="padding: 14px; border-right: 1px solid #14233D;">
+        <code><font color="#00F0FF"><b>EXPLORER // WORKSPACE</b></font></code>
+        <br/><br/>
+        <code>
+          &nbsp;&#9660; <font color="#A78BFA"><b>Sahil_Portfolio</b></font><br/>
+          &nbsp;&nbsp;&nbsp;&#9660; <font color="#38BDF8">src/</font><br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; <font color="#00F0FF"><b>agentic-core.ts</b></font><br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; <font color="#A78BFA">grievance-routing.ts</font><br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; <font color="#34D399">crop_classifier.py</font><br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; <font color="#FBBF24">iot_detector.cpp</font><br/>
+          <br/>
+          &nbsp;&#9654; <font color="#88A0C0">models/</font><br/>
+          &nbsp;&#9654; <font color="#88A0C0">telemetry/</font><br/>
+          <br/>
+          <font color="#64748B"><b>RUNTIME STACK:</b><br/>
+          &bull; Node.js v22.12 LTS<br/>
+          &bull; Python 3.12 (ML Core)<br/>
+          &bull; TypeScript 5.8 Strict<br/>
+          &bull; Three.js / WebGL 3D</font>
+        </code>
+      </td>
+
+      <!-- Code Viewport & Simulated AI Copilot (72%) -->
+      <td width="72%" valign="top" bgcolor="#050812" style="padding: 16px;">
+        <!-- Simulated AI Assistant Chip -->
+        <table width="100%" bgcolor="#0D1629" style="border: 1px solid #1E3A5F; border-radius: 6px; padding: 8px 12px; margin-bottom: 12px;">
+          <tr>
+            <td>
+              <code><font color="#A78BFA"><b>&#10024; AI ARCHITECT COPILOT:</b></font> <font color="#CBD5E1">Decomposing product requirements into deterministic technical contracts with automated tool calling and low-latency evaluation.</font></code>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Interactive File Tabs via native GitHub <details> -->
+        <details open>
+          <summary><code><font color="#00F0FF"><b>[TAB 1] agentic-core.ts</b> (BuildMind AI &bull; Autonomous Architecture Agent)</font></code></summary>
+
+```typescript
+import { AgentRuntime, ToolRegistry } from "@buildmind/core";
+
+export class ArchitecturalDecomposerAgent {
+  private runtime: AgentRuntime;
+  private tools: ToolRegistry;
+
+  constructor() {
+    this.runtime = new AgentRuntime({ model: "gemini-2.5-pro", temperature: 0.2 });
+    this.tools = new ToolRegistry(["schemaValidator", "techStackEvaluator", "costEstimator"]);
+  }
+
+  /**
+   * Decomposes product briefs into structured technical specifications
+   */
+  async planArchitecture(brief: string): Promise<TechnicalBlueprint> {
+    const analysis = await this.runtime.executeWorkflow({
+      prompt: `Deconstruct technical constraints and database requirements: ${brief}`,
+      tools: this.tools,
+      strictSchema: true,
+    });
+
+    return {
+      serviceMesh: analysis.decomposeLayers(),
+      databaseTopology: analysis.recommendDataLayer(),
+      latencyBenchmark: "< 45ms P99 SLA",
+    };
+  }
+}
+```
+        </details>
+
+        <details>
+          <summary><code><font color="#A78BFA"><b>[TAB 2] grievance-routing.ts</b> (Smart Grievance Portal &bull; NLP Dispatch)</font></code></summary>
+
+```typescript
+import { Router, Request, Response } from "express";
+import { GrievanceModel } from "../models/Grievance";
+import { classifyDepartment } from "../ml/nlpClassifier";
+
+export const grievanceRouter = Router();
+
+// Ingest, auto-classify department, and register lifecycle telemetry
+grievanceRouter.post("/submit", async (req: Request, res: Response) => {
+  const { title, description, location } = req.body;
+  const department = await classifyDepartment(description);
+  
+  const ticket = await GrievanceModel.create({
+    title,
+    description,
+    department,
+    coordinates: location.coordinates,
+    status: "ACKNOWLEDGED",
+    lifecycleTelemetry: [{ status: "INGESTED", timestamp: new Date() }],
+  });
+
+  return res.status(201).json({ success: true, ticketId: ticket._id });
+});
+```
+        </details>
+
+        <details>
+          <summary><code><font color="#34D399"><b>[TAB 3] crop_classifier.py</b> (Crop Recommendation &bull; Supervised ML)</font></code></summary>
+
+```python
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+
+class CropRecommendationPipeline:
+    def __init__(self, data_path: str):
+        self.df = pd.read_csv(data_path)
+        self.features = ['N', 'P', 'K', 'temperature', 'humidity', 'ph', 'rainfall']
+        self.model = RandomForestClassifier(n_estimators=100, random_state=42)
+
+    def train_and_evaluate(self):
+        X = self.df[self.features]
+        y = self.df['label']
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+        
+        self.model.fit(X_train, y_train)
+        accuracy = self.model.score(X_test, y_test)
+        print(f"[ML_TELEMETRY] Test Accuracy: {accuracy * 100:.2f}%")
+        return accuracy
+```
+        </details>
+
+        <details>
+          <summary><code><font color="#FBBF24"><b>[TAB 4] iot_detector.cpp</b> (IoT Alcohol Detection &bull; Embedded Interlock)</font></code></summary>
+
+```cpp
+#include <Arduino.h>
+
+const int MQ3_PIN = A0;
+const int RELAY_PIN = 7;
+const int BUZZER_PIN = 8;
+const int THRESHOLD = 350; // Safety Cutoff Threshold
+
+void setup() {
+  Serial.begin(115200);
+  pinMode(RELAY_PIN, OUTPUT);
+  pinMode(BUZZER_PIN, OUTPUT);
+  digitalWrite(RELAY_PIN, HIGH); // Ignition Armed
+}
+
+void loop() {
+  int sensorValue = analogRead(MQ3_PIN);
+  if (sensorValue > THRESHOLD) {
+    digitalWrite(RELAY_PIN, LOW); // Interlock Engaged
+    digitalWrite(BUZZER_PIN, HIGH);
+    Serial.println("[CRITICAL_ALERT] Alcohol detected. Ignition locked.");
+  } else {
+    digitalWrite(RELAY_PIN, HIGH);
+    digitalWrite(BUZZER_PIN, LOW);
+  }
+  delay(100);
+}
+```
+        </details>
+      </td>
+    </tr>
+
+    <!-- Bottom Terminal Panel -->
+    <tr bgcolor="#04060E">
+      <td colspan="2" style="padding: 10px 16px; border-top: 1px solid #14233D;">
+        <code>
+          <font color="#00F0FF"><b>TERMINAL</b></font> &nbsp;|&nbsp; 
+          <font color="#88A0C0">OUTPUT</font> &nbsp;|&nbsp; 
+          <font color="#88A0C0">DEBUG CONSOLE</font> &nbsp;|&nbsp; 
+          <font color="#34D399">PROBLEMS (0)</font>
+          <br/>
+          <font color="#64748B">sahil@workstation:~/Sahil_Portfolio$</font> <font color="#F8FAFC">pnpm run test:architecture</font><br/>
+          <font color="#00F0FF">&gt; executing agentic decomposition &amp; latency benchmark suites...</font><br/>
+          <font color="#34D399">&#10003; 14 architectural integrity test suites passed (18ms)</font><br/>
+          <font color="#64748B">&gt; Node: Mumbai [19.01&deg; N, 72.84&deg; E] &bull; WebGL 3D Canvas: OK &bull; Status: Ready</font>
+        </code>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+<div align="center">
+  <img src="./assets/cyber_divider.svg" width="100%" alt="Cyber Divider" />
+</div>
+<br/>
+
+<!-- ================================================================= -->
 <!-- SECTION: IDENTITY // ABOUT THE DEVELOPER                          -->
 <!-- ================================================================= -->
 
@@ -73,10 +289,10 @@
     <td width="65%" valign="top" bgcolor="#050B14" style="border: 1px solid #0E223D; border-radius: 8px; padding: 18px;">
       <h3><font color="#00F0FF">&gt; INITIALIZING DEVELOPER MANIFEST</font></h3>
       <p>
-        I am a <b>Full Stack Developer</b> and <b>AI & Machine Learning Enthusiast</b> based in Mumbai, India. My engineering focus centers on bridging reactive, human-centric user experiences with resilient, highly-scalable backend systems and modern autonomous AI agent architectures.
+        I am a <b>Full Stack Developer</b> and <b>AI &amp; Machine Learning Enthusiast</b> based in Mumbai, India. My engineering focus centers on bridging reactive, human-centric user experiences with resilient, highly-scalable backend systems and modern autonomous AI agent architectures.
       </p>
       <p>
-        Currently pursuing a <b>B.Tech in Computer Engineering</b> (8.63 CGPA) after earning a <b>Diploma in Information Technology</b> from Vidyalankar Polytechnic, I combine disciplined computer science principles with practical software delivery. From architecting RESTful services and relational/NoSQL schemas to training machine learning classification pipelines and deploying full-stack web applications, I prioritize clean architectural boundaries, robust performance, and tangible real-world problem solving.
+        Currently pursuing a <b>B.Tech in Computer Engineering</b> (8.63 CGPA) after earning a <b>Diploma in Information Technology</b> from Vidyalankar Polytechnic, I combine disciplined computer science fundamentals with practical software delivery. From architecting RESTful services and relational/NoSQL schemas to training machine learning classification pipelines and deploying full-stack web applications, I prioritize clean architectural boundaries, robust performance, and tangible real-world problem solving.
       </p>
       <ul>
         <li><b>Cognitive Domain:</b> Generative AI, Autonomous Agent Tooling, Multi-Model Orchestration.</li>
@@ -92,7 +308,7 @@
       <p><b>Prior Diploma:</b> IT @ Vidyalankar Poly (78.23%)</p>
       <p><b>Industry Practice:</b> Full Stack Developer Intern @ Devarena Solutions</p>
       <p><b>Honors:</b> 1st Place &bull; Cyber Security Hackathon</p>
-      <p><b>Status:</b> <font color="#00F0FF">&#9679; Available for AI & Full Stack Roles</font></p>
+      <p><b>Status:</b> <font color="#00F0FF">&#9679; Available for AI &amp; Full Stack Roles</font></p>
     </td>
   </tr>
 </table>
@@ -164,7 +380,7 @@
     <!-- Backend -->
     <tr bgcolor="#050B14">
       <td valign="middle">
-        <b>Backend & APIs</b>
+        <b>Backend &amp; APIs</b>
       </td>
       <td valign="middle">
         <a href="https://nodejs.org" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="32" height="32" alt="Node.js" title="Node.js" /></a>&nbsp;&nbsp;
@@ -177,7 +393,7 @@
     <!-- Databases -->
     <tr bgcolor="#07101E">
       <td valign="middle">
-        <b>Databases & Cloud</b>
+        <b>Databases &amp; Cloud</b>
       </td>
       <td valign="middle">
         <a href="https://www.mongodb.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="32" height="32" alt="MongoDB" title="MongoDB" /></a>&nbsp;&nbsp;
@@ -191,7 +407,7 @@
     <!-- AI / ML -->
     <tr bgcolor="#050B14">
       <td valign="middle">
-        <b>AI & Machine Learning</b>
+        <b>AI &amp; Machine Learning</b>
       </td>
       <td valign="middle">
         <a href="https://www.tensorflow.org" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="32" height="32" alt="TensorFlow" title="TensorFlow" /></a>&nbsp;&nbsp;
@@ -204,7 +420,7 @@
     <!-- DevOps & Tools -->
     <tr bgcolor="#07101E">
       <td valign="middle">
-        <b>Tools & DevOps</b>
+        <b>Tools &amp; DevOps</b>
       </td>
       <td valign="middle">
         <a href="https://www.docker.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="32" height="32" alt="Docker" title="Docker" /></a>&nbsp;&nbsp;
@@ -247,7 +463,7 @@
             <h3><font color="#00F0FF">&#9658; 01 // BUILDMIND AI</font></h3>
           </td>
           <td align="right">
-            <code><b>[ STATUS: ARCHITECTURE & PROTOTYPE ]</b></code>
+            <code><b>[ STATUS: ARCHITECTURE &amp; PROTOTYPE ]</b></code>
           </td>
         </tr>
       </table>
@@ -281,7 +497,7 @@
             <h3><font color="#A78BFA">&#9658; 02 // SMART GOVERNMENT GRIEVANCE PORTAL</font></h3>
           </td>
           <td align="right">
-            <code><b>[ STATUS: CONCEPT SPECIFICATION & UI PROTOTYPE ]</b></code>
+            <code><b>[ STATUS: CONCEPT SPECIFICATION &amp; UI PROTOTYPE ]</b></code>
           </td>
         </tr>
       </table>
@@ -365,7 +581,7 @@
       <p>
         <b>Core Matrix:</b> <code>Python</code> &bull; <code>Scikit-Learn</code> &bull; <code>Pandas</code> &bull; <code>NumPy</code> &bull; <code>Data Analytics</code>
         <br/>
-        <b>Repository Link:</b> <a href="https://github.com/sahiln1229"><code>github.com/sahiln1229 (Model Weights & Notebooks)</code></a>
+        <b>Repository Link:</b> <a href="https://github.com/sahiln1229"><code>github.com/sahiln1229 (Model Weights &amp; Notebooks)</code></a>
       </p>
     </td>
   </tr>
@@ -394,12 +610,12 @@
         <b>Key Capabilities:</b>
         <br/>&bull; <b>Real-time Gas Sensing:</b> Continuous sensor sampling utilizing calibrated MQ alcohol gas sensor probes.
         <br/>&bull; <b>Automated Interlock Trigger:</b> Microcontroller-level relay trip preventing engine ignition upon threshold breach.
-        <br/>&bull; <b>Visual & Audio Telemetry:</b> Immediate indicator alerting for operators and safety supervisors.
+        <br/>&bull; <b>Visual &amp; Audio Telemetry:</b> Immediate indicator alerting for operators and safety supervisors.
       </p>
       <p>
         <b>Core Matrix:</b> <code>C/C++</code> &bull; <code>Microcontroller Hardware</code> &bull; <code>MQ Gas Sensors</code> &bull; <code>Embedded Protocols</code>
         <br/>
-        <b>Repository Link:</b> <a href="https://github.com/sahiln1229"><code>github.com/sahiln1229 (Firmware & Schematics)</code></a>
+        <b>Repository Link:</b> <a href="https://github.com/sahiln1229"><code>github.com/sahiln1229 (Firmware &amp; Schematics)</code></a>
       </p>
     </td>
   </tr>
@@ -490,21 +706,21 @@
   <tr>
     <td width="33%" valign="top" bgcolor="#050B14" style="border: 1px solid #0E223D; border-radius: 8px; padding: 14px;">
       <h4><font color="#00F0FF">&#9889; MODULE 01</font></h4>
-      <b>AI Agents & Generative AI</b>
+      <b>AI Agents &amp; Generative AI</b>
       <p><font color="#88A0C0" size="2">Investigating agentic loops, prompt chaining, function calling, and structured outputs for tool-augmented intelligence.</font></p>
       <code>FOCUS: Multi-Agent Systems</code>
     </td>
     <td width="33%" valign="top" bgcolor="#050B14" style="border: 1px solid #0E223D; border-radius: 8px; padding: 14px;">
       <h4><font color="#00F0FF">&#9889; MODULE 02</font></h4>
-      <b>ML & Model Evaluation</b>
+      <b>ML &amp; Model Evaluation</b>
       <p><font color="#88A0C0" size="2">Deepening knowledge in validation metrics, loss functions, hyperparameter tuning, and production inference optimization.</font></p>
-      <code>FOCUS: Precision & Recall</code>
+      <code>FOCUS: Precision &amp; Recall</code>
     </td>
     <td width="33%" valign="top" bgcolor="#050B14" style="border: 1px solid #0E223D; border-radius: 8px; padding: 14px;">
       <h4><font color="#00F0FF">&#9889; MODULE 03</font></h4>
-      <b>Backend & System Design</b>
+      <b>Backend &amp; System Design</b>
       <p><font color="#88A0C0" size="2">Exploring microservices, event-driven architectures, API rate limiting, caching strategies, and database sharding.</font></p>
-      <code>FOCUS: Scalability & Low Latency</code>
+      <code>FOCUS: Scalability &amp; Low Latency</code>
     </td>
   </tr>
   <tr>
